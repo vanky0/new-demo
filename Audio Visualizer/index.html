@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Visualizer</title>
+    <!-- Link to our custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Audio Visualizer</h1>
+            <p>Upload an audio file (.mp3, .wav) to see a real-time visualization.</p>
+        </header>
+        <main>
+            <div class="controls">
+                <input type="file" id="audio-upload" accept="audio/*">
+                <button id="play-pause-btn" disabled>Play</button>
+            </div>
+            <canvas id="visualizer"></canvas>
+            <audio id="audio-source" style="display: none;"></audio>
+        </main>
+        <footer>
+            <p>&copy; 2024 Audio Visualizer</p>
+        </footer>
+    </div>
+    <!-- Link to our custom JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
