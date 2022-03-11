@@ -135,4 +135,7 @@ function setupAudioContext() {
         analyser.fftSize = 256;
         const bufferLength = analyser.frequencyBinCount;
         const dataArray = new Uint8Array(bufferLength);
-        
+        
+        // Start the visualization loop
+        drawVisualizer(bufferLength, dataArray);
+    }
