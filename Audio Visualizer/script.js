@@ -198,4 +198,7 @@ function drawVisualizer(bufferLength, dataArray) {
         canvasCtx.fillRect(x, visualizerCanvas.height - barHeight, barWidth, barHeight);
         
         x += barWidth + 1; // Add a small gap between bars
-    }
+    }
+}
+
+// Ensure the audio context starts on a user gesture
