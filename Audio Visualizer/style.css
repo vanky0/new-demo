@@ -114,4 +114,7 @@ footer {
 
 
 
-:root {
+:root {
+    --bg-color: #1a202c;
+    --text-color: #e2e8f0;
+    --primary-color: #4c51bf;
