@@ -117,4 +117,7 @@ footer {
 :root {
     --bg-color: #1a202c;
     --text-color: #e2e8f0;
-    --primary-color: #4c51bf;
+    --primary-color: #4c51bf;
+    --secondary-color: #63b3ed;
+    --border-color: #4a5568;
+}
