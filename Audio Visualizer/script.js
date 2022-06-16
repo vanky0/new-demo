@@ -229,4 +229,6 @@ let audioCtx;
 let analyser;
 let source;
 let isPlaying = false;
-
+
+// Function to set up the Web Audio API
+function setupAudioContext() {
