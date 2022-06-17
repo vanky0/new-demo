@@ -235,4 +235,6 @@ function setupAudioContext() {
     if (!audioCtx) {
         audioCtx = new (window.AudioContext || window.webkitAudioContext)();
         analyser = audioCtx.createAnalyser();
-        source = audioCtx.createMediaElementSource(audioSource);
+        source = audioCtx.createMediaElementSource(audioSource);
+        
+        // Connect the nodes in the audio graph
