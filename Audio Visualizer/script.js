@@ -271,4 +271,6 @@ playPauseBtn.addEventListener('click', () => {
     if (audioSource.paused) {
         audioSource.play();
         playPauseBtn.textContent = "Pause";
-        isPlaying = true;
+        isPlaying = true;
+    } else {
+        audioSource.pause();
