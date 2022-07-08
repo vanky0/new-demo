@@ -361,4 +361,6 @@ function setupAudioContext() {
     }
 }
 
-// Function to handle the audio file upload
+// Function to handle the audio file upload
+audioUpload.addEventListener('change', (e) => {
+    const file = e.target.files[0];
