@@ -373,4 +373,6 @@ audioUpload.addEventListener('change', (e) => {
         
         // Set up the audio context once a file is loaded
         setupAudioContext();
-    }
+    }
+});
+
