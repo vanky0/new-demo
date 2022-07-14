@@ -409,4 +409,6 @@ function drawVisualizer(bufferLength, dataArray) {
     
     for(let i = 0; i < bufferLength; i++) {
         const barHeight = dataArray[i] * 1.5;
-        
+        
+        // Simple color gradient based on bar height
+        const hue = i / bufferLength * 360;
