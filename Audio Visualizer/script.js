@@ -425,4 +425,6 @@ function drawVisualizer(bufferLength, dataArray) {
 document.addEventListener('click', () => {
     if (audioCtx && audioCtx.state === 'suspended') {
         audioCtx.resume();
-    }
+    }
+});
+
