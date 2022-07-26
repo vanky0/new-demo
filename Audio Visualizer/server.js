@@ -51,4 +51,5 @@ app.use(express.static(path.join(__dirname, '/')));
 // Start the server
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
-  console.log('Open this URL in your browser to see the visualizer.');
+  console.log('Open this URL in your browser to see the visualizer.');
+});
