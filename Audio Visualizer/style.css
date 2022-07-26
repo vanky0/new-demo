@@ -131,4 +131,6 @@ body {
     justify-content: center;
     align-items: center;
 
-
+
+:root {
+    --bg-color: #1a202c;
