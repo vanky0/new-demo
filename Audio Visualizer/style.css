@@ -157,4 +157,6 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 800px;
+    max-width: 800px;
+    background-color: #2d3748;
+    border-radius: 12px;
